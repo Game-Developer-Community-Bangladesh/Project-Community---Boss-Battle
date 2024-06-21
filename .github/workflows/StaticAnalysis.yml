@@ -22,11 +22,13 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
       - name: 'Qodana Scan'
-        uses: JetBrains/qodana-action@v2024.1
+        uses: JetBrains/qodana-action@v2024.1.5
         with:
           pr-mode: false
           args: --apply-fixes
           push-fixes: pull-request
+        env:
+          QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}  
       - run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
