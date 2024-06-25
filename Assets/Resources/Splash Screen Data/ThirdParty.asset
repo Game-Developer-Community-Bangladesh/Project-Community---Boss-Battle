@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInteractable: 0
   ThirdPartyEntries:
-  - Image: {fileID: 2800000, guid: 78a59ca99f8987941adb61f9e14a06a7, type: 3}
+  - Image: {fileID: 2800000, guid: 8fd8ccb8d7e81d943b28ea7975c7185d, type: 3}
+  - Image: {fileID: 2800000, guid: 8e9022a4116c84cd188e6306fb4a5079, type: 3}

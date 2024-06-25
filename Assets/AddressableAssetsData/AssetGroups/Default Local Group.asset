@@ -15,8 +15,18 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: 178720b834ca24e4bb3045da61b57f28
   m_SerializeEntries:
+  - m_GUID: 85a58c3e1d8d84492918e57e75f3c93f
+    m_Address: Assets/com.gdcbd.bossbattle/Scenes/SplashScreen.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: efb6eae18ca2c4cd5b585fd68fb0a8c2
     m_Address: Assets/com.gdcbd.bossbattle/Scenes/MainMenu.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f86b8c7fabff84c6b914d39788753df3
+    m_Address: Assets/com.gdcbd.bossbattle/Scenes/Boss1.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

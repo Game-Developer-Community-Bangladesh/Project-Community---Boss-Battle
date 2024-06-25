@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2270d5ba77bf44796de3258a01496c, type: 3}
-  m_Name: Splash Screen Prefab
+  m_Script: {fileID: 11500000, guid: eb1d3cbaf74f5ba4385f86c58e44ac42, type: 3}
+  m_Name: MainMenue-SceneUnLoadingAction
   m_EditorClassIdentifier: 
-  IsInteractable: 0
-  PrefabGameObject: {fileID: 1045449499628917728, guid: 924e38e45bddf43da8b7b211a5514a06, type: 3}
+  ScenesToUnload: []

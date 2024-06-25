@@ -9,12 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25bc6dd8d4772944eb4af5d79f5ec279, type: 3}
-  m_Name: MainMenu - AddressableSceneData
+  m_Script: {fileID: 11500000, guid: ce6719b9a8c939c4b9c21d8f5ee59f72, type: 3}
+  m_Name: MainMenue - SceneLoadingAction
   m_EditorClassIdentifier: 
-  Scene:
-    m_AssetGUID: efb6eae18ca2c4cd5b585fd68fb0a8c2
-    m_SubObjectName: 
-    m_SubObjectGUID: 
-    m_SubObjectType: 
-    m_EditorAssetChanged: 0
+  SceneData:
+  - SceneData: {fileID: 11400000, guid: ed9a799e1a0554e66bc011db2f8fe065, type: 2}
+    IsLoadAsSingle: 0
+    ActivateOnLoad: 0
+  PrefabGameObject: {fileID: 0}
