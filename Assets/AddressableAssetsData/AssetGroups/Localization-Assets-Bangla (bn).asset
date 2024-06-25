@@ -14,7 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: Localization-Assets-Bangla (bn)
   m_GUID: b9ebe458aa559464485602968ed876ed
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 50a662519a78af740b1ac972a8e15be0
+    m_Address: NotoSansBengali-Regular SDF 1
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-bn
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 06d34960bf14b4745a9cec36c56022be, type: 2}
   m_SchemaSet:

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Localization-Assets-Shared
   m_EditorClassIdentifier: 
   m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
   m_GUID: 6ceab3e63966142838237d2b7abcc0c0
   m_SerializeEntries:
   - m_GUID: 180ab62af49f742dd9e2177c903a8574
@@ -24,13 +26,6 @@ MonoBehaviour:
     m_Address: Assets/com.gdcbd.bossbattle/Localization/LocalizationFont Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8f586378b4e144a9851e7b34d9b748ee
-    m_Address: LiberationSans SDF
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-bn
-    - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f54e148b977ed4709b8a603d6907b994
     m_Address: Assets/com.gdcbd.bossbattle/Localization/Font Material Shared Data.asset
