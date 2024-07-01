@@ -1083,6 +1083,7 @@ GameObject:
   - component: {fileID: 6714355936769066922}
   - component: {fileID: 6034157239993939900}
   - component: {fileID: 2353688299065150498}
+  - component: {fileID: 6714355936769066923}
   m_Layer: 5
   m_Name: Description
   m_TagString: Untagged
@@ -1888,6 +1889,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2595291767626508513}
   m_CullTransparentMesh: 1
+--- !u!114 &6714355936769066923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2595291767626508513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:180ab62af49f742dd9e2177c903a8574
+    m_TableEntryReference:
+      m_KeyId: 747398750208
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6034157239993939900}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!224 &6747033094879794955
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2000,13 +2041,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ButtonPanel: {fileID: 9198792097691087055}
   ParentPanel: {fileID: 3844335709231140878}
-  TitleText: {fileID: 6076687043122697306}
+  TitleText: {fileID: 3802939761856157774}
   ScrollRect: {fileID: 4079425046006604178}
   RectParent: {fileID: 6861711238093932473}
   PrefabParent: {fileID: 1009769318220989799}
   ImagePrefab: {fileID: 7781341144946857160, guid: 7aa7d29db76304490b9ace6abeffdacc, type: 3}
   SplashScreenBehaviour: {fileID: 1909658985}
-  ScrollRectText: {fileID: 6034157239993939900}
+  ScrollRectText: {fileID: 2595291767626508513}
   GridLayout: {fileID: 0}
   AcceptBtn: {fileID: 2394144613899651495}
   DeclineBtn: {fileID: 7340570025170681033}

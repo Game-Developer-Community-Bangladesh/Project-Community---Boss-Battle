@@ -136,7 +136,7 @@
       "url": "https://package.openupm.com"
     },
     "com.studio23.ss2.splashscreensystem": {
-      "version": "1.0.4",
+      "version": "1.0.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
