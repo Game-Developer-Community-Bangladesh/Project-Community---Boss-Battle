@@ -16,12 +16,14 @@ MonoBehaviour:
     m_Code: en
   m_SharedData: {fileID: 11400000, guid: 180ab62af49f742dd9e2177c903a8574, type: 2}
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 8536057501340139573
   m_TableData:
   - m_Id: 747398750208
     m_Localized: Disclaimer
     m_Metadata:
-      m_Items: []
+      m_Items:
+      - rid: 8536057501340139573
   - m_Id: 2539944693194752
     m_Localized: Boss Battle is an open-source 2D Boss battle game developed and
       maintained by a community of volunteers. The game is provided "as is," without
@@ -36,6 +38,15 @@ MonoBehaviour:
       information.
     m_Metadata:
       m_Items: []
+  - m_Id: 3265006454956032
+    m_Localized: Disclaimer
+    m_Metadata:
+      m_Items:
+      - rid: 8536057501340139573
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 8536057501340139573
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00e06f04ae00000000e0ef8d81990b00

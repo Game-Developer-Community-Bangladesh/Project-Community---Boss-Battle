@@ -17,10 +17,10 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:180ab62af49f742dd9e2177c903a8574
     m_TableEntryReference:
-      m_KeyId: 747398750208
+      m_KeyId: 3265006454956032
       m_Key: 
     m_FallbackState: 0
-    m_WaitForCompletion: 0
+    m_WaitForCompletion: 1
     m_LocalVariables: []
   Description:
     m_TableReference:
