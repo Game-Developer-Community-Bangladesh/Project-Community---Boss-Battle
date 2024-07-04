@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LoadActions:
-  - {fileID: 11400000, guid: 65379f4e01289434d9c2c3ef1fd790f9, type: 2}
+  - {fileID: 11400000, guid: f31837eebe8cb416f89ffe324aa7128f, type: 2}
 --- !u!4 &563586177
 Transform:
   m_ObjectHideFlags: 0
@@ -198,7 +198,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  _loadAfter: 3
+  _loadAfter: 2
 --- !u!1001 &663780529
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -569,12 +569,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3096954416148898656, guid: f473d3d4fae644bf59538c6cb18a1998, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096954416148898656, guid: f473d3d4fae644bf59538c6cb18a1998, type: 3}
       propertyPath: SelectLanguageKey
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6476778663655627785, guid: f473d3d4fae644bf59538c6cb18a1998, type: 3}
       propertyPath: m_Name
       value: Force Language Setup (0 English, 1 Bangla)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476778663655627785, guid: f473d3d4fae644bf59538c6cb18a1998, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

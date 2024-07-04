@@ -20,7 +20,7 @@ MonoBehaviour:
       m_KeyId: 3265006454956032
       m_Key: 
     m_FallbackState: 0
-    m_WaitForCompletion: 1
+    m_WaitForCompletion: 0
     m_LocalVariables: []
   Description:
     m_TableReference:
@@ -33,10 +33,10 @@ MonoBehaviour:
     m_LocalVariables: []
   ShowButton: 0
   TitleFontData:
-    FontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    FontAsset: {fileID: 0}
     FontStyle: 0
   DescriptionFontData:
-    FontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    FontAsset: {fileID: 0}
     FontStyle: 0
   references:
     version: 2

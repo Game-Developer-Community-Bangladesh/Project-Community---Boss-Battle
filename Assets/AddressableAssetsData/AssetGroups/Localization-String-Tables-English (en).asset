@@ -10,21 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Localization-Asset-Tables-English (en)
+  m_Name: Localization-String-Tables-English (en)
   m_EditorClassIdentifier: 
-  m_GroupName: Localization-Asset-Tables-English (en)
+  m_GroupName: Localization-String-Tables-English (en)
   m_Data:
     m_SerializedData: []
-  m_GUID: 082de9557d604424ba3495ee32fe86d9
+  m_GUID: 8d9082f5430f44e75b59222369c2a111
   m_SerializeEntries:
-  - m_GUID: 4ebbb45f4de4c4fac8b20dfc40ccd0a7
-    m_Address: FONTS_en
+  - m_GUID: da122aa530a624c228e44b5eda08431b
+    m_Address: DisclaimerTitle_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 59819a2915ea44f3fb9cb5922c19c153
-    m_Address: Materials_en
+  - m_GUID: 0c1912d7f940f405fb44ca5d316b8563
+    m_Address: SplashScreen_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7bfbe4381d954f8b9e9b972fff19e2d
+    m_Address: MainMenue_StringTable_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
@@ -33,5 +39,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: f80931befa10d452cb3cf7b4e31d37c6, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 0223fdc8b620a47f699c47f3d0f08191, type: 2}
-    - {fileID: 11400000, guid: e8b58a553fcc940a485c23bc047f9eca, type: 2}
+    - {fileID: 11400000, guid: dbaabec28821c41fcaed183fe6c18ba3, type: 2}
+    - {fileID: 11400000, guid: 5539e2a7b36fc48d8952365f32d1fb8a, type: 2}

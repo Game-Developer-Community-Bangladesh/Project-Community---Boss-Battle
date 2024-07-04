@@ -197,8 +197,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LoadActions:
-  - {fileID: 11400000, guid: 4e83bade0dd4947cebba158ff9375113, type: 2}
-  - {fileID: 11400000, guid: 58364f4cd1cba49cbb3c31ecfdbce442, type: 2}
+  - {fileID: 11400000, guid: dd415e8e0629648a8898bad3025fefe7, type: 2}
+  - {fileID: 11400000, guid: f22b46f8866e142fc9f2f2fcaddf8802, type: 2}
 --- !u!4 &634496431
 Transform:
   m_ObjectHideFlags: 0
@@ -361,7 +361,7 @@ GameObject:
   - component: {fileID: 1909658986}
   - component: {fileID: 1909658985}
   m_Layer: 0
-  m_Name: Splash Screen Behaviour
+  m_Name: Splash Screen Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1962,9 +1962,9 @@ MonoBehaviour:
       type: {class: LocalizedTmpFont, ns: UnityEngine.Localization, asm: Unity.Localization}
       data:
         m_TableReference:
-          m_TableCollectionName: GUID:8b0a4b8a97d6d4fcca81a3ec18254b8d
+          m_TableCollectionName: GUID:1899ef7b55ca343bca3c365197f2cbcf
         m_TableEntryReference:
-          m_KeyId: 90788847616
+          m_KeyId: 15727583232
           m_Key: 
         m_FallbackState: 0
         m_WaitForCompletion: 1
@@ -1978,9 +1978,9 @@ MonoBehaviour:
       type: {class: LocalizedMaterial, ns: UnityEngine.Localization, asm: Unity.Localization}
       data:
         m_TableReference:
-          m_TableCollectionName: GUID:f54e148b977ed4709b8a603d6907b994
+          m_TableCollectionName: GUID:8cd3173759057472898145c3b27aa3cf
         m_TableEntryReference:
-          m_KeyId: 267125776384
+          m_KeyId: 43133165568
           m_Key: 
         m_FallbackState: 0
         m_WaitForCompletion: 1
@@ -2539,8 +2539,8 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 814454723}
-  - {fileID: 634496431}
-  - {fileID: 415868269}
-  - {fileID: 1909658986}
-  - {fileID: 849631400}
   - {fileID: 5972055329516000730}
+  - {fileID: 1909658986}
+  - {fileID: 415868269}
+  - {fileID: 634496431}
+  - {fileID: 849631400}
