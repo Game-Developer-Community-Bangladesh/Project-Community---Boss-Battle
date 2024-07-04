@@ -143,9 +143,9 @@ MonoBehaviour:
     HasValue: 0
   displaySortOrder: 0
   childIdentifiers:
+  - b7716510a1f36934c87976f3a81dbf3d
   - 2c5177b11d81d824dbb064f9ac8527da
   - 46fbfdf3fc43db0458918377fd40293e
-  - b7716510a1f36934c87976f3a81dbf3d
   codecChannels:
     Value: []
     HasValue: 0
@@ -200,14 +200,14 @@ MonoBehaviour:
   SharedLibraryUpdateStage: 0
   SharedLibraryTimeSinceStart: 0
   CurrentVersion: 131617
-  HideSetupWizard: 0
+  HideSetupWizard: 1
   LastEventReferenceScanVersion: 131617
   Platforms:
-  - {fileID: 6962110888781665354}
+  - {fileID: -6811891109252856231}
   - {fileID: -6014095896794093441}
   - {fileID: 44898498382325051}
   - {fileID: 522934009903708336}
-  - {fileID: -6811891109252856231}
+  - {fileID: 6962110888781665354}
   MigratedPlatforms: 0a00000015000000080000000200000001000000
 --- !u!114 &44898498382325051
 MonoBehaviour:
