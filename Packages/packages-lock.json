@@ -117,8 +117,8 @@
       "url": "https://package.openupm.com"
     },
     "com.studio23.ss2.settings.video": {
-      "version": "1.0.4",
-      "depth": 1,
+      "version": "1.0.7",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.2.1"
