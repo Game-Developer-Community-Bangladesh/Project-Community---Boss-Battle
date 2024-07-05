@@ -32,6 +32,14 @@ namespace com.gdcbd.bossbattle
         public OnActionEvent CrouchPressedAction;
         public OnActionEvent CrouchReleasedAction;
 
+        #region MyRegion
+
+        public OnActionEvent OnHoldSubmitActionCompleted;
+        public OnActionEvent OnHoldResetActionCompleted;
+        public OnActionEvent OptionLeft;
+        public OnActionEvent OptionRight;
+        private float _sliderValue;
+        #endregion
         protected override void Initialize()
         {
         }
@@ -93,6 +101,11 @@ namespace com.gdcbd.bossbattle
                 CrouchPressedAction?.Invoke();
             else if (context.canceled)
                 CrouchReleasedAction?.Invoke();
+        }
+        
+        public float GetSliderValue()
+        {
+            return _sliderValue;
         }
     }
 }
