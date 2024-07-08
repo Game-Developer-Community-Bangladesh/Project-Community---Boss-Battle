@@ -30,6 +30,7 @@ namespace Studio23.SS2
         void Start()
         {
             SaveFilePath = Path.Combine(Application.persistentDataPath, "SaveData", "SettingsConfig");
+            Debug.Log($"save file path {SaveFilePath}");
             if (!Directory.Exists(SaveFilePath))
                 Directory.CreateDirectory(SaveFilePath);
             LoadAll();
@@ -37,6 +38,7 @@ namespace Studio23.SS2
 
         public async void LoadAll()
         {
+            Debug.Log($"OnLoadComplete Started");
             var savableComponents = FindObjectsOfType<MonoBehaviour>(true).OfType<ISavableSettings>();
             foreach (var component in savableComponents)
             {
@@ -44,6 +46,7 @@ namespace Studio23.SS2
             }
 
             OnLoadComplete?.Invoke();
+            Debug.Log($"OnLoadComplete Ended");
         }
 
         public async UniTask Save(ISavableSettings savable)

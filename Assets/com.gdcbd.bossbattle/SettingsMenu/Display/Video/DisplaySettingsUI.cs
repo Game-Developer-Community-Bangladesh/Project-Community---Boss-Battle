@@ -32,18 +32,21 @@ namespace Studio23.SS2
 
         void OnDisable()
         {
+            
             SaveSystem.Core.SaveSystem.Instance.OnLoadComplete.RemoveListener(Initialize);
             GetComponent<IApplyAction>().UnSubscribeEvent();
             SetApplyAction();
         }
         void Start()
         {
-            Initialize();
+           // Initialize();
+           SettingsSaveManager.Instance.OnLoadComplete.AddListener(Initialize);
             SaveSystem.Core.SaveSystem.Instance.OnLoadComplete.AddListener(Initialize);
         }
 
         public void Initialize()
         {
+            Debug.Log("Initialize  Load completed!");
             _videoSettingsSaver = VideoSettingsManager.Instance.GetComponent<VideoSettingsSaver>();
             _displayController = VideoSettingsManager.Instance.DisplayController;
             _tempVideoSettingsData = _videoSettingsSaver.GetCurrentData();

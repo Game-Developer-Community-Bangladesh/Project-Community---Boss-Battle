@@ -52,13 +52,16 @@ namespace Studio23.SS2
         public async UniTask ManageSaveLoadException(Exception exception)
         {
             Debug.Log($"{exception.Message}");
+            Debug.Log($"ManageSaveLoadException started");
             _currentVideoSettingsData = new VideoSettingsData(_defaultVideoSettingsData);
+            Debug.Log($"ManageSaveLoadException ended");
             await SettingsSaveManager.Instance.Save(this);
             await UniTask.CompletedTask;
         }
 
         public VideoSettingsData GetCurrentData()
         {
+        
             return _currentVideoSettingsData;
         }
 

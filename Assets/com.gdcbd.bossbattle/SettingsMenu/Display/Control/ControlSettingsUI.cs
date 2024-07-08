@@ -1,12 +1,9 @@
 using Studio23.SS2.Settings.Control.Data;
 using Studio23.SS2.UI.Misc;
-using Studio23.SS2.UIKit.Components;
 using System.Collections.Generic;
 using System.Linq;
-using Studio23.SS2.Settings.Video.Data;
 using UnityEngine;
 using UnityEngine.UI;
-using System;
 
 namespace Studio23.SS2.Settings
 {
