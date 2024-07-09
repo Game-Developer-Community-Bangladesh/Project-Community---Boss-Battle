@@ -9,6 +9,8 @@ TagManager:
   - Projectile
   - Turret
   - GlobalVolume
+  - UI_CONTROLLER
+  - UI_KEYBOARD
   layers:
   - Default
   - TransparentFX

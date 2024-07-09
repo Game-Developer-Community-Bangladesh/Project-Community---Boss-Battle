@@ -557,8 +557,8 @@ GameObject:
   - component: {fileID: 5254798774313931132}
   - component: {fileID: 6443836137082685982}
   - component: {fileID: 5457479725392813279}
-  - component: {fileID: 5546945678101751256}
   - component: {fileID: 1902916804035527785}
+  - component: {fileID: 5546945678101751256}
   - component: {fileID: 6081706115895294540}
   - component: {fileID: 2653393415014886463}
   m_Layer: 5
@@ -686,20 +686,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &5546945678101751256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7375582474262159753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 902527dfb3fa14b95b34cf0c61313eb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _tmpTarget: {fileID: 5457479725392813279}
-  _localizer: {fileID: 6081706115895294540}
 --- !u!114 &1902916804035527785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -724,6 +710,7 @@ MonoBehaviour:
         m_TrackedProperties:
           items:
           - rid: 8536057541521047555
+          - rid: 8536057608123187215
         m_UpdateType: 0
     - rid: 8536057541521047555
       type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
@@ -735,12 +722,42 @@ MonoBehaviour:
       type: {class: LocalizedTmpFont, ns: UnityEngine.Localization, asm: Unity.Localization}
       data:
         m_TableReference:
-          m_TableCollectionName: 
+          m_TableCollectionName: GUID:1899ef7b55ca343bca3c365197f2cbcf
         m_TableEntryReference:
-          m_KeyId: 0
+          m_KeyId: 15727583232
           m_Key: 
         m_FallbackState: 0
         m_WaitForCompletion: 0
+    - rid: 8536057608123187215
+      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_Localized:
+          rid: 8536057608123187216
+        m_PropertyPath: m_sharedMaterial
+    - rid: 8536057608123187216
+      type: {class: LocalizedMaterial, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:8cd3173759057472898145c3b27aa3cf
+        m_TableEntryReference:
+          m_KeyId: 43133165568
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+--- !u!114 &5546945678101751256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7375582474262159753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 902527dfb3fa14b95b34cf0c61313eb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tmpTarget: {fileID: 5457479725392813279}
+  _localizer: {fileID: 6081706115895294540}
 --- !u!114 &6081706115895294540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -755,9 +772,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:0a1dd6acfb25842b898b81fb3201f948
+      m_TableCollectionName: 
     m_TableEntryReference:
-      m_KeyId: 102474178560
+      m_KeyId: 0
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -806,6 +823,7 @@ GameObject:
   - component: {fileID: 7953215415755122202}
   - component: {fileID: 2861004531014811940}
   - component: {fileID: 2229815633899570336}
+  - component: {fileID: 7051009218614350602}
   m_Layer: 5
   m_Name: Settings Cell - Left Right Button
   m_TagString: Untagged
@@ -910,3 +928,19 @@ MonoBehaviour:
   SelectedIndexUpdated:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7051009218614350602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9117231525215958412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c042f7d82966447697e8e8ec15e9288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _buttonNavigationController: {fileID: 0}
+  _initializeOnStart: 0
+  _isInteractable: 0
+  _buttonEnabledOnPlatform: 0

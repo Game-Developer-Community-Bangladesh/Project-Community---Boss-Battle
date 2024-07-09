@@ -33,6 +33,7 @@ namespace Studio23.SS2.Settings
         void OnDisable()
         {
             SaveSystem.Core.SaveSystem.Instance.OnLoadComplete.RemoveListener(Initialize);
+            SettingsSaveManager.Instance.OnLoadComplete.RemoveListener(Initialize);
             GetComponent<IApplyAction>().UnSubscribeEvent();
             SetApplyAction();
         }
@@ -42,6 +43,7 @@ namespace Studio23.SS2.Settings
         {
             Initialize();
             SaveSystem.Core.SaveSystem.Instance.OnLoadComplete.AddListener(Initialize);
+            SettingsSaveManager.Instance.OnLoadComplete.AddListener(Initialize);
 
         }
 
@@ -51,8 +53,6 @@ namespace Studio23.SS2.Settings
             _controlSettingsSaver = _controlSettingsManager.GetComponent<ControlSettingsSaver>();
             _tempControlSettingsConfiguration = _controlSettingsSaver.GetCurrentData();
             _currentControlSettingsConfiguration = new ControlSettingsConfiguration(_tempControlSettingsConfiguration);
-
-
             InitializeUi();
             InitializeUiEvent();
         }

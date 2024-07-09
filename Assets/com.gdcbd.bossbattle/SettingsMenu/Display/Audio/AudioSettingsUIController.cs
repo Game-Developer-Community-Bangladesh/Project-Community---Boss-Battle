@@ -87,13 +87,13 @@ namespace Studio23.SS2.Settings
             }));
 
         }
-
+        public void SaveNow()=> SettingsSaveManager.Instance.Save(_audioSettingsSaver);
         private async void Save()
         {
             await SettingsSaveManager.Instance.Save(_audioSettingsSaver);
         }
 
-        private void Reset()
+        public void Reset()
         {
             _audioSettingsSaver.SetCurrentData(_audioSettingsSaver.GetDefaultData());
             _audioSettingsData = _audioSettingsSaver.GetCurrentData();
