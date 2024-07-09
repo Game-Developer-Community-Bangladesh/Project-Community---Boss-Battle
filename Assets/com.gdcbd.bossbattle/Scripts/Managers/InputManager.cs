@@ -13,6 +13,7 @@ namespace com.gdcbd.bossbattle
         private Vector2 _moveInput;
 
         public delegate void OnActionEvent();
+        public delegate void OnActionMapEvent(InputMaps actionMap);
 
         public OnActionEvent MovePressedAction;
         public OnActionEvent MoveReleaseAction;
@@ -31,8 +32,9 @@ namespace com.gdcbd.bossbattle
 
         public OnActionEvent CrouchPressedAction;
         public OnActionEvent CrouchReleasedAction;
-
        
+        public OnActionMapEvent OnActionMapChanged;
+        private InputMaps _currentActionMap;
         protected override void Initialize()
         {
         }
@@ -142,5 +144,20 @@ namespace com.gdcbd.bossbattle
         
         #endregion
        
+        public void ChangeInputMap(InputMaps actionMap)
+        {
+            _currentActionMap = actionMap;
+            playerInput.SwitchCurrentActionMap(actionMap.ToString());
+            OnActionMapChanged?.Invoke(_currentActionMap);
+            Debug.Log($"Action Map switch to : {_currentActionMap.ToString()}");
+        }
+        
+    }
+    public enum InputMaps
+    {
+        Player,
+        UI,
+        Interaction,
+        Cheat
     }
 }
